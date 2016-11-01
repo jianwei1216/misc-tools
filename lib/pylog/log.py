@@ -5,7 +5,7 @@ import logging
 import logging.config
 
 #log_conf = "./log.conf"
-log_conf = "/usr/local/my-scripts/lib/log.conf"
+log_conf = "/usr/local/lib/misc-tools/lib/pylog/log.conf"
 
 try:
     os.mkdir('/var/log/my-scripts')

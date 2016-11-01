@@ -6,7 +6,7 @@ import sys
 import os
 import ssh
 import time
-sys.path.append('./')
+sys.path.append('/usr/local/lib/misc-tools/lib/pylog')
 from log import fastlog
 
 def get_ssh_client(host):

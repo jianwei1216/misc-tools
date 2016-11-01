@@ -2,6 +2,7 @@
 # -*- coding:UTF-8 -*-
 
 import sys
+sys.path.append('/usr/local/lib/misc-tools/lib/pylog/')
 import os
 import ssh
 import thread
@@ -9,7 +10,6 @@ import time
 import argparse
 import textwrap
 import commands
-sys.path.append('./')
 from log import misclog
 
 # according ssh get a client for remote exec cmds, close after using
